@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Start-up
-Run `npm install` and `npm install bootstrap` in your terminal/command prompt.
+Run `npm install` and `npm install bootstrap` in your terminal/command prompt ONLY for the first use of the app.
 
 ## Development server
 
