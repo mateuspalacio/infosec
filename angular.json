@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -91,6 +92,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -124,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "infosec"
+  "defaultProject": "infosec",
+  "cli": {
+    "analytics": "b8cb6625-0d98-466a-ba54-03b2db8dfa7d"
+  }
 }
