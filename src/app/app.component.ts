@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'infosec';
+  router: string;
+  constructor(private routerRoute: Router){
+    this.router = routerRoute.url;
+    console.log(this.router);
+
+  }
 }

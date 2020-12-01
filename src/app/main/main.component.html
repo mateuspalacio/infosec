@@ -1,1 +1,34 @@
-Bem-vindo, aluno! Começe suas aulas imediatamente!
+<div id="header">
+  <button type="button" class="btn btn-outline-primary" style="margin-left: 95%;width: 5%;" routerLink="/login">
+    LOGOUT
+    </button>
+  <label id="title">Bem-vindo, aluno!</label>
+  <label id="startnow">Começe imediatamente suas aulas na InfoSec!</label>
+
+</div>
+<div id="main">
+  <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z2" mat-align-tabs="center">
+    <mat-tab label="Unidade 1">
+      <ul class="list-group" >
+
+        <li class="list-group-item" (click)="selectedUnity(0)">{{unione[0]}}</li>
+
+        <li class="list-group-item disabled" aria-disabled="true" *ngFor="let uni of unione | slice:1 ;let i = index" [value]="i">{{uni}}</li>
+
+      </ul>
+    </mat-tab>
+    <mat-tab label="Unidade 2">
+      <ul class="list-group">
+        <li class="list-group-item disabled" aria-disabled="true">Em breve disponível!</li>
+      </ul>
+    </mat-tab>
+    <mat-tab label="Unidade 3">
+      <ul class="list-group">
+        <li class="list-group-item disabled" aria-disabled="true">Em breve disponível!</li>
+      </ul>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+
+
