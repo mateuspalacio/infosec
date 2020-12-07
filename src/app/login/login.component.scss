@@ -1,8 +1,12 @@
-.content {
-    background-color: pink;
+#main {
+    background-color: #483d8b ;
+    overflow:auto;
+    width: auto;
+    height: auto;
 }
 
 input:focus {
     border-style: solid;
     border-color: #92a8d1;
+
 }

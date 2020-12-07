@@ -1,3 +1,4 @@
+import { CadastroComponent } from './cadastro/cadastro.component';
 import { ClassroomComponent } from './classroom/classroom.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, Router } from '@angular/router';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'inicio', component: MainComponent},
     {path: 'aula', component: ClassroomComponent}
   ,
+  {path: 'cadastro', component: CadastroComponent},
   { path: '**', component: ErrorComponent}
 ];
 

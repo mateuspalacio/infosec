@@ -10,6 +10,7 @@ import { ErrorComponent } from './error/error.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonComponent } from './common/common.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CommonComponent } from './common/common.component';
     MainComponent,
     ClassroomComponent,
     ErrorComponent,
-    CommonComponent
+    CommonComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
